@@ -1,0 +1,52 @@
+.nav-container{
+   background-color: rgba(20, 195, 251, 1);
+    
+}
+
+
+.nav-ul{
+    /* Center horizontally */
+
+    margin-left: auto;
+    margin-right: auto;
+  
+    display: flex;
+
+    max-width: 80rem; 
+
+    align-items: center;
+  
+    justify-content: center;
+  
+    padding-left: 1rem;
+    padding-right: 1rem;
+  
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+
+
+  @media (min-width: 640px) {
+    .sm\:px-6 {
+      padding-left: 1.5rem;
+      padding-right: 1.5rem;
+    }
+  }
+  
+
+  @media (min-width: 1024px) {
+    .lg\:px-8 {
+      padding-left: 2rem;
+      padding-right: 2rem;
+    }
+  }
+  
+}
+
+.lines{
+   
+
+    display: inline-flex;
+    gap: 50px;
+  
+  
+}
