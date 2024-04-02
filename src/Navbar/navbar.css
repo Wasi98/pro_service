@@ -1,11 +1,18 @@
+.nav-div{
+    display: flex;
+    justify-content: center;
+}
+
 .nav-container{
-   background-color: rgba(20, 195, 251, 1);
+   background-color: gray;
+   width: 1072px;
+   height: 151px;
+   
     
 }
 
 
 .nav-ul{
-    /* Center horizontally */
 
     margin-left: auto;
     margin-right: auto;
