@@ -1,13 +1,14 @@
-import { NavLink } from "react-router-dom";
+// import { NavLink } from "react-router-dom";
+
 import "./Footer.css";
 import R3 from './footerImage/R3.png';
-
+import Copyright from './footerImage/Copyright.png';
 
 
 // const footerItems = [ 
 //     {
 //       name: 'Terms of Service',
-//       to: '/',
+//       to: 'terms of service',
 //     },
 //     {
 //       name: 'Privacy',
@@ -17,8 +18,6 @@ import R3 from './footerImage/R3.png';
 //       name: 'Cookies',
 //       to: 'cookies',
 //     },
- 
- 
 // ];
 
 
@@ -27,19 +26,33 @@ export default function Footer() {
   return (
     <div className="footer-container">
        <div className="footer-divs">
-            <div>
-                <img src={R3} alt="" />
 
-            </div>
+            <img className="R3" src={R3} alt="" />
+            {/* footer array objects */}
+            
+            <p>Terms of Service</p>
+            <p>Privacy</p>
+            <p>Cookies</p>
+       </div>
 
-            <div>
-                  {/* array objects */}
-
-          
-
-            </div>
-
+       <div>
+        <img src={Copyright} alt="" />
        </div>
     </div>
   )
 }
+
+
+
+
+
+{/* <div className="">
+<ul className="">
+{footerItems.map((item) => (
+ <li key={item.name}>
+<NavLink className={(e) => {return e.isActive ? "footer-color":""}} to={item.to}> {item.name}</NavLink>
+
+  </li>
+))}
+</ul>
+</div> */}

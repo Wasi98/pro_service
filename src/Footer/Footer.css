@@ -5,5 +5,19 @@
     height: 78px;
     border-top: 4px solid salmon;
     color: white;
+
+    display: flex;
+    justify-content: space-between;
+    padding-right: 30px;
+    padding-top: 30px;
 }
 
+.footer-divs{
+    display: flex;
+    gap: 48px;
+}
+.R3{
+    width: 37px;
+    height: 28px;
+    margin-left: 30px;
+}
