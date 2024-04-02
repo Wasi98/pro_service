@@ -4,6 +4,7 @@ import debug from '../assets/navbar/debug.png';
 import EN from '../assets/navbar/EN.png';
 import Icon from '../assets/navbar/Icon.png';
 import Vector from '../assets/navbar/Vector.png';
+import question from '../assets/navbar/question.png';
 
 
 
@@ -31,11 +32,8 @@ const menuItems = [
     {
       name: 'Files',
       to: 'files',
- },
-  
-    
-    
-  ];
+ },  
+];
 
 
 
@@ -67,20 +65,24 @@ const menuItems = [
       <div className="hr-line">
           <hr />
       </div> 
-
       <br />
 
 
+    <div className="nav-inside-div">
     <div className="nav-ul">
       <ul className="lines">
         {menuItems.map((item) => (
           <li key={item.name}>
-            {/* <NavLink className="" to={item.to}> {item.name}</NavLink>   */}
             <NavLink className={(e) => {return e.isActive ? "button-color":""}} to={item.to}> {item.name}</NavLink>
             
           </li>
         ))}
       </ul>
+    </div>
+
+      <div>
+        <img className="question" src={question} alt="" />
+      </div>
     </div>
   </div>
 

@@ -6,8 +6,9 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import Layout from './Layout';
-import Dashboard from '../Dashboard';
-import Details from '../Details';
+import Dashboard from "../NavComponents/Dashboard";
+import Details from "../NavComponents/Details";
+
 
 
 

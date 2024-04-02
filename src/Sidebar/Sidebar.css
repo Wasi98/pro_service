@@ -1,10 +1,29 @@
 .sidebarContainer{
-    background-color: #4D8BFF;
-    height:2109px;
+    background-color: #0067E1;
+    height:2160px;
     width: 298px;
-
-    border: 2px solid #4D8BFF;
     padding: 10px;
     border-radius: 25px;
     margin-left: 10px;
 }
+
+
+.company-div{
+    background-color: #60a0ff;
+    margin-top: 20px;
+    margin-left: 15px;
+    border-radius: 50px;
+    width: 240px;
+    height: 58px;
+    padding: 8px 16px 8px 8px;
+
+
+    display: flex;
+    gap: 10px;
+    color: white;
+}
+.company-div-text>p{
+    font-size: 11px;
+    opacity: 0.6;
+}
+

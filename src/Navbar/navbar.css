@@ -7,10 +7,7 @@
    padding: 20px 30px 20px 40px;
   font-weight: 600;
   
-
-  
 }
-
 
 .nav-head{
     padding: 5px 30px 9px 2px;
@@ -19,9 +16,8 @@
     justify-content: space-between;
   
 }
-.hr-line{
-  
-}
+/* .hr-line{
+} */
 
 .icon-div{
   display: flex;
@@ -35,7 +31,7 @@
 }
 .inside-icon-div-two{
   display: flex;
-  gap: 1px;
+  gap: 3px;
 
 }
 
@@ -60,8 +56,13 @@
 }
 
 
-
-
+.nav-inside-div{
+  display: flex;
+  justify-content: space-between;
+}
+.question{
+  padding-right: 24px;
+}
 
 .nav-ul{
   display: flex;
@@ -71,11 +72,9 @@
 }
 
 .lines{
-   
 
     display: inline-flex;
     gap: 50px;
-  
   
 }
 
@@ -90,82 +89,7 @@
 
 
 
-
-
-
-/* .nav-div {
-  background-color: white;
-  border-radius: 24px;
-  padding: 20px 30px 20px 40px;
-  font-weight: 600;
-  max-width: 100%;
-  margin: 0 auto;
-}
-
-.nav-head {
-  padding: 5px 30px 9px 2px;
-  font-size: 25px;
-  display: flex;
-  justify-content: space-between;
-}
-
-.icon-div {
-  display: flex;
-  align-items: center;
-  gap: 20px;
-}
-
-.inside-icon-div {
-  display: flex;
-  gap: 10px;
-}
-
-.inside-icon-div-two {
-  display: flex;
-  gap: 1px;
-}
-
-.debug {
-  width: 24px;
-  height: 24px;
-}
-
-.Icon {
-  width: 21px;
-  height: 21px;
-}
-
-.EN {
-  margin-top: 5px;
-  width: 20px;
-  height: 11px;
-}
-
-.Vector {
-  margin-top: 6px;
-  width: 10px;
-  height: 9px;
-}
-
-.nav-ul {
-  display: flex;
-  justify-content: left;
-  font-size: 17px;
-}
-
-.lines {
-  display: inline-flex;
-  gap: 50px;
-}
-
-.button-color {
-  background-color: rgb(232, 238, 241);
-  color: rgb(0, 89, 255);
-  padding: 10px 20px; 
-  border-radius: 24px;
-}
-
-
+/* 
 @media only screen and (max-width: 600px) {
   .nav-div {
     padding: 10px;
@@ -233,4 +157,4 @@
   .nav-head {
     font-size: 32px;
   }
-} */
+}  */

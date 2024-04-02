@@ -1,0 +1,36 @@
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px; /* Adjust the gap between cards */
+  }
+  
+  .card {
+    flex: 1 0 calc(50% - 5px); /* Adjust width for 2 columns layout */
+    background-color: #ccc; /* Adjust background color */
+    border-radius: 8px;
+  }
+  
+  .card1 {
+    height: 100px; /* Adjust height */
+  }
+  
+  .card2 {
+    height: 150px; /* Adjust height */
+  }
+  
+  .card3 {
+    height: 200px; /* Adjust height */
+  }
+  
+  .card4 {
+    height: 250px; /* Adjust height */
+  }
+  
+  .card5 {
+    height: 300px; /* Adjust height */
+  }
+  
+  .card6 {
+    height: 350px; /* Adjust height */
+  }
+  
