@@ -10,7 +10,7 @@ export default function Home() {
         <NavRoute />
         </div>
         <div>
-            <h1>other components</h1>
+            {/* <h1>other components</h1> */}
             
         </div>
     </div>
