@@ -1,8 +1,8 @@
 .nav-div{
    
    background-color: white;
-   width: 1510px;
-   height: 145px;
+   width: 1072px;
+   height: 151px;
    border-radius: 24px;
    padding: 20px 30px 20px 40px;
   font-weight: 600;
@@ -16,8 +16,6 @@
     justify-content: space-between;
   
 }
-/* .hr-line{
-} */
 
 .icon-div{
   display: flex;
@@ -28,28 +26,30 @@
 .inside-icon-div{
   display: flex;
   gap: 10px;
+
 }
 .inside-icon-div-two{
   display: flex;
+  align-items: center;
   gap: 3px;
 
 }
 
 .debug{
-  width: 24px;
+  width: 22px;
   height: 24px;
 }
 .Icon{
-  width: 21px;
+  width: 20px;
   height: 21px;
 }
 .EN{
-  margin-top: 5px;
+ 
   width: 20px;
   height: 11px;
 }
 .Vector{
-  margin-top: 6px;
+
   width: 10px;
   height: 9px;
   
@@ -59,6 +59,7 @@
 .nav-inside-div{
   display: flex;
   justify-content: space-between;
+  align-items: center;
 }
 .question{
   padding-right: 24px;
@@ -89,72 +90,21 @@
 
 
 
-/* 
-@media only screen and (max-width: 600px) {
-  .nav-div {
-    padding: 10px;
-  }
 
-  .nav-head {
-    font-size: 20px;
+
+/*
+@media only screen and (max-width: 1200px) {
+  .nav-div{
+    width: 80%; 
+    height: 50%;
+    color: lightcoral; 
   }
 }
 
-@media only screen and (min-width: 600px) {
-  .nav-div {
-    width: 100%;
-    padding: 15px;
-    height: auto;
+@media only screen and (max-width: 992px) {
+  .nav-div{
+    width: 80%; 
+    height: 50%;
+    color: lightgreen; 
   }
-
-  .nav-head {
-    font-size: 20px;
-    padding: 10px 0;
-  }
-
-  .nav-ul {
-    display: flex;
-    justify-content: center;
-    gap: 20px;
-  }
-
-  .lines {
-    display: inline-flex;
-    gap: 20px;
-  }
-}
-
-@media only screen and (min-width: 768px) {
- 
-  .nav-div {
-    padding: 20px;
-  }
-
-  .nav-head {
-    font-size: 24px;
-  }
-}
-
-@media only screen and (min-width: 992px) {
- 
-  .nav-div {
-    width: 80%;
-    padding: 30px;
-  }
-
-  .nav-head {
-    font-size: 28px;
-  }
-}
-
-@media only screen and (min-width: 1200px) {
-  
-  .nav-div {
-    width: 100%;
-    padding: 40px;
-  }
-
-  .nav-head {
-    font-size: 32px;
-  }
-}  */
+} */

@@ -6,7 +6,7 @@ export default function Sidebar() {
       <div className="sidebarContainer">
          <div className="company-div">
             <div>
-              <img src={projectLogo} alt="" />
+              <img className="projectLogo" src={projectLogo} alt="" />
             </div>
 
             <div className="company-div-text">

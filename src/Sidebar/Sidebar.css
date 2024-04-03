@@ -1,20 +1,22 @@
 .sidebarContainer{
     background-color: #0067E1;
-    height:2160px;
+    height:2109px;
     width: 298px;
     padding: 10px;
     border-radius: 25px;
-    margin-left: 10px;
+    margin-left: 20px;
 }
 
 
 .company-div{
+
+    width: 240px;
+    height: 58px;
+
     background-color: #60a0ff;
     margin-top: 20px;
     margin-left: 15px;
     border-radius: 50px;
-    width: 240px;
-    height: 58px;
     padding: 8px 16px 8px 8px;
 
 
@@ -27,3 +29,33 @@
     opacity: 0.6;
 }
 
+
+
+
+
+@media only screen and (max-width: 1200px) {
+    .sidebarContainer{
+        height:75%;
+        width: auto;
+        padding: auto;
+         border-radius: auto;
+         margin-left: auto;
+    }
+
+    .company-div{
+    width: auto;
+    font-size: auto;
+    height: auto;
+
+    }
+
+    .company-div-text>p{
+        font-size: auto;
+        opacity: 0.6;
+    }
+    .projectLogo{
+        height: auto;
+        width: auto;
+    }
+  
+}

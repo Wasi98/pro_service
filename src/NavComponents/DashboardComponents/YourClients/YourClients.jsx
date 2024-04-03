@@ -1,7 +1,9 @@
+import "./YourClients.css"
+
 
 export default function YourClients() {
   return (
-    <div>
+    <div className="yourClients-container">
       <h1>this is client</h1>
     </div>
   )

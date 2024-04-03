@@ -1,0 +1,51 @@
+.company-container{
+    height: 519px;
+    width: 526px;
+}
+
+.first-div{
+    display: flex;
+    align-items: center;
+
+    gap: 10px;
+    padding-left: 15px;
+    padding-top: 20px;
+    font-weight: 500;
+    
+}
+.hLine{
+    margin: 10px 20px 20px 5px;
+}
+
+.CoverImage{
+    padding-left: 25px;
+}
+
+.second-div{
+    display: flex;
+    justify-content:space-evenly;
+    align-items: center;
+    margin-top: 27px;
+    font-weight: 500;
+    
+}
+
+.EventPlanner{
+    border-radius: 70%; /* Makes the icon round */
+  box-shadow: 0 5px 5px gray;
+  background-color: rgb(0, 0, 0);
+}
+
+.OrgName{
+    font-size: 16px;
+    text-shadow: 2px 2px 5px gray;
+}
+.Company-Details-button{
+    font-size: 14px;
+    color: white;
+    background-color: #019587;
+    border-radius: 25px;
+    padding: 11px 20px;
+    font-weight: 400;
+    box-shadow: 0 5px 4px rgba(0, 0, 0, 0.253);
+}
