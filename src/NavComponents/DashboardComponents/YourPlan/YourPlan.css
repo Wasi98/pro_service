@@ -42,17 +42,77 @@
 .header-After-hLine{
     color: gray;
     padding: 20px;
+    margin-left: 10px;
 }
 
 .yourPlan-second-div{
     display: flex;
     align-items: center;
+    margin-right: 10px;
+    /* gap: 5px; */
 }
 
 .PlanCard{
     position: relative;
+    width: 300px;
+    height: auto;
+    margin-left: 30px;
+
 }
 
 .Triangle{
     position: absolute;
+    inset: 20px 0 0 120px;
 }
+
+
+.PlanCard-header{
+    position: absolute;
+    inset: 10px;
+    color: white;
+}
+
+
+.PlanCard-header-two{
+    font-size: small;
+    padding-top: 10px;
+    padding-bottom: 5px;
+}
+
+.PlanCard-header-three{
+     font-size: large;
+}
+
+.PlanCard-header-four{
+    font-size: 10px;
+    padding-top: 10px;
+}
+
+
+.Manage{
+    background-color: #0067E1;
+    font-size: 14px;
+    width: 200px;
+    color: white;
+    border-radius: 25px;
+    padding: 10px 10px 10px 10px;
+    font-weight: 400;
+    margin-bottom: 10px;
+    margin-right: 25px;
+    
+}
+
+.Addons{
+    background-color: #E3653D;
+    font-size: 14px;
+    color: white;
+    border-radius: 25px;
+    padding: 8px 10px 10px 10px;
+    font-weight: 400;
+    display: flex;
+    align-items: center;
+    margin-left:30px;
+    
+}
+
+

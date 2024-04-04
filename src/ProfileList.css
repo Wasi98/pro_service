@@ -1,0 +1,84 @@
+
+.app-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 15px;
+    height: auto;
+  }
+  
+
+  .user-list {
+    list-style: none;
+    padding: 0;
+    max-height: 300px; /* Add maximum height */
+    overflow: auto; /* Add vertical scrollbar */
+    margin-right: 10px;
+  }
+  
+
+  .user-profile {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    padding: 10px;
+    position: relative; 
+  }
+  
+  .user-profile::after {
+    content: ''; /* Add content for pseudo-element */
+    position: absolute; /* Set absolute positioning */
+    bottom: 0; /* Align to the bottom */
+    
+    width: 95%; /* Adjust the width */
+    height: 1px; /* Set the height */
+    background-color: #E7E7E7;
+  }
+  
+
+
+  .user-profile img {
+    width: 56px;
+    height: 57px;
+    border-radius: 50%;
+    margin-right: 20px;
+  }
+  
+ 
+  .user-profile-details {
+    flex: 1;
+  }
+  
+  
+  .user-profile-name {
+    font-size: 18px;
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+
+  .user-profile-detail {
+    font-size: 14px;
+    color: #666;
+  }
+  
+
+  /* Style for scrollbar */
+  .user-list::-webkit-scrollbar {
+    width: 6px; /* Adjust the width as needed */
+    border-radius: 20px;
+    height: 3px;
+    
+  }
+  
+  /* Track */
+  .user-list::-webkit-scrollbar-track {
+    background: #EDEDED;
+    border-radius: 20px;
+  }
+  
+  /* Handle */
+  .user-list::-webkit-scrollbar-thumb {
+    background: #C9CDD0; 
+    border-radius: 20px; 
+  }
+  

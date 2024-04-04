@@ -33,17 +33,25 @@ export default function YourPlan() {
       </h2>
 
       <div className="yourPlan-second-div">
+
            <div className="PlanCard">
             <img src={PlanCard} alt="" />
               <div className="Triangle">
                 <img src={Triangle} alt="" />
-              </div>
+            </div>
+
+                <div className="PlanCard-header">
+                  <h1 className="PlanCard-header-one">Current Plan</h1>
+                  <h2 className="PlanCard-header-two">Professional</h2>
+                  <h1 className="PlanCard-header-three">$25/Mo.</h1>
+                  <p className="PlanCard-header-four">Manage multiple clients and teams</p>
+                </div>
            </div>
 
 
            <div>
-            <button>Manage your current plan</button>
-            <button><img src={Rocket} alt="" />Addons & Upgrades</button>
+            <button className="Manage">Manage your current plan</button>
+            <button className="Addons"><img src={Rocket} alt="" />Addons & Upgrades</button>
            </div>
       </div>
 
